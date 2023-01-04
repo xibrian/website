@@ -2,27 +2,29 @@
 layout: page
 title: City Planning 140
 description: Fall 2022, UC Berkeley
-img: assets/img/mission-creek-isometric.png
+img: assets/img/wentworth.png
 importance: 1
 category: work
 ---
 
-I took CP 140 Urban Design: City-Building and Place-Making because I wanted to learn more about the built environment.
+I took CP 140 Urban Design: City-Building and Place-Making in Fall 2022.
 Below is a portfolio of my work for this class.
+
+The class had three field trips throughout the semester to examine the urban form in Downtown SF, Oakland, and Misison Bay. Below are drawings from these trips.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/broadway.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/hotaling.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/swans-market.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Street signage in Oakland Chinatown. Map of historic SF waterfront in Hotaling Place. Swans Market outdoor seating.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,7 +32,7 @@ Below is a portfolio of my work for this class.
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Isometric drawing of SF Mission Bay.
 </div>
 
 You can also put regular text between your rows of images.
@@ -39,32 +41,15 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mission-bay-plan.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/portsmouth-isometric.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Plan drawing of SF Mission Bay. Isometric drawing of Portsmouth Square in SF Chinatown.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
