@@ -50,9 +50,11 @@
     - title: Global Policy Lab
       year: Jan 2022 - Present
       institution: Mentors - Simon Greenhill, Solomon Hsiang
-      description: 
+      description:
+        - I am researching on the Aerial History Project, which is digitizing, stitching, and georeferencing historical aerial photographs covering swaths of the former British Empire. Using Python, R, and QGIS, I'm improving a model that estimates our georeferencing error. When compared against modern satellite imagery, our results will enable long-term analysis of environmental change and economic development.
 
     - title: ASU, The Design School
       year: Oct 2019 - May 2020
       institution: Mentor - Paul Coseo
-      description: 
+      description:
+        - As part of my high school senior research project, I researched under ASU's landscape architecture department to make Tempe's public spaces more heat resilient. Using planning documents and participatory survey data, I created a set of cooling design <a href="https://drive.google.com/file/d/1hmPGHYaATu0jjoRtM6pFB2FM7bJkDZJp/view?usp=sharing">guidelines</a> that will guide Tempe's climate action plans.
