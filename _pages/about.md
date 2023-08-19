@@ -16,4 +16,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey, my name's Brian and I'm a junior studying computer science and urban planning at UC Berkeley. I'm interested in urban science, the built environment, and sustainability.
+Hey, my name's Brian and I'm a senior studying computer science and data science at UC Berkeley. I'm interested in software engineering, urban science, and sustainability.
